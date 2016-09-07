@@ -1,0 +1,10 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # run from this directory
+set -x
+
+wclean libso twoPhaseSystem2
+wclean libso interfacialModels2
+wclean libso phaseIncompressibleTurbulenceModels2
+wclean
+
+# ----------------------------------------------------------------- end-of-file

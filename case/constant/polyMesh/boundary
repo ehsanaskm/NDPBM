@@ -1,0 +1,49 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.3                                   |
+|   \\  /    A nd           | Web:      http://www.openfoam.org               |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version 2.0;
+    format ascii;
+
+    root "/home/bselma/OpenFOAM/bselma-1.3/run/tutorials/twoPhaseEulerFoam";
+    case "Ranade_column90_0.14_6144";
+    instance ""constant"";
+    local "polyMesh";
+
+    class polyBoundaryMesh;
+    object boundary;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+3
+(
+outlet
+{
+    type patch;
+    nFaces 64;
+    startFace 16448;
+}
+
+inlet
+{
+    type patch;
+    nFaces 1;
+    startFace 16512;
+}
+
+walls
+{
+    type wall;
+    nFaces 3903;
+    startFace 16513;
+}
+)
+
+// ************************************************************************* //

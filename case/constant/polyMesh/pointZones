@@ -1,0 +1,28 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.3                                   |
+|   \\  /    A nd           | Web:      http://www.openfoam.org               |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version 2.0;
+    format ascii;
+
+    root "/home/bselma/OpenFOAM/bselma-1.3/run/tutorials/twoPhaseEulerFoam";
+    case "Ranade_column90_0.14_6144";
+    instance ""constant"";
+    local "polyMesh";
+
+    class regIOobject;
+    object pointZones;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+0
+()
+
+// ************************************************************************* //

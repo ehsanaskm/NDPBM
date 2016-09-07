@@ -1,0 +1,24 @@
+OBJECTS = \
+$(OBJECTS_DIR)/phaseModel.o\
+$(OBJECTS_DIR)/diameterModel.o\
+$(OBJECTS_DIR)/newDiameterModel.o\
+$(OBJECTS_DIR)/constantDiameter.o\
+$(OBJECTS_DIR)/isothermalDiameter.o\
+$(OBJECTS_DIR)/IATE.o\
+$(OBJECTS_DIR)/IATEsource.o\
+$(OBJECTS_DIR)/wakeEntrainmentCoalescence.o\
+$(OBJECTS_DIR)/turbulentBreakUp.o\
+$(OBJECTS_DIR)/randomCoalescence.o\
+$(OBJECTS_DIR)/NDPBM.o\
+$(OBJECTS_DIR)/NDPBMsource.o\
+$(OBJECTS_DIR)/randomCoalescenceNDPBM.o\
+$(OBJECTS_DIR)/turbulentBreakUpNDPBM.o\
+$(OBJECTS_DIR)/blendingMethod.o\
+$(OBJECTS_DIR)/newBlendingMethod.o\
+$(OBJECTS_DIR)/noBlending.o\
+$(OBJECTS_DIR)/linear.o\
+$(OBJECTS_DIR)/hyperbolic.o\
+$(OBJECTS_DIR)/phasePairKey.o\
+$(OBJECTS_DIR)/phasePair.o\
+$(OBJECTS_DIR)/orderedPhasePair.o\
+$(OBJECTS_DIR)/twoPhaseSystem.o

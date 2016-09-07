@@ -1,0 +1,24 @@
+DEPENDENCIES = \
+phaseModel/phaseModel.dep\
+diameterModels/diameterModel/diameterModel.dep\
+diameterModels/diameterModel/newDiameterModel.dep\
+diameterModels/constantDiameter/constantDiameter.dep\
+diameterModels/isothermalDiameter/isothermalDiameter.dep\
+diameterModels/IATE/IATE.dep\
+diameterModels/IATE/IATEsources/IATEsource/IATEsource.dep\
+diameterModels/IATE/IATEsources/wakeEntrainmentCoalescence/wakeEntrainmentCoalescence.dep\
+diameterModels/IATE/IATEsources/turbulentBreakUp/turbulentBreakUp.dep\
+diameterModels/IATE/IATEsources/randomCoalescence/randomCoalescence.dep\
+diameterModels/NDPBM/NDPBM.dep\
+diameterModels/NDPBM/NDPBMsources/NDPBMsource/NDPBMsource.dep\
+diameterModels/NDPBM/NDPBMsources/randomCoalescenceNDPBM/randomCoalescenceNDPBM.dep\
+diameterModels/NDPBM/NDPBMsources/turbulentBreakUpNDPBM/turbulentBreakUpNDPBM.dep\
+BlendedInterfacialModel/blendingMethods/blendingMethod/blendingMethod.dep\
+BlendedInterfacialModel/blendingMethods/blendingMethod/newBlendingMethod.dep\
+BlendedInterfacialModel/blendingMethods/noBlending/noBlending.dep\
+BlendedInterfacialModel/blendingMethods/linear/linear.dep\
+BlendedInterfacialModel/blendingMethods/hyperbolic/hyperbolic.dep\
+phasePair/phasePairKey/phasePairKey.dep\
+phasePair/phasePair/phasePair.dep\
+phasePair/orderedPhasePair/orderedPhasePair.dep\
+twoPhaseSystem.dep

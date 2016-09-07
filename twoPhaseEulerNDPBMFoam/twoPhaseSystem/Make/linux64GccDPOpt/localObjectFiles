@@ -1,0 +1,24 @@
+LOCAL_OBJECTS = \
+phaseModel.o\
+diameterModel.o\
+newDiameterModel.o\
+constantDiameter.o\
+isothermalDiameter.o\
+IATE.o\
+IATEsource.o\
+wakeEntrainmentCoalescence.o\
+turbulentBreakUp.o\
+randomCoalescence.o\
+NDPBM.o\
+NDPBMsource.o\
+randomCoalescenceNDPBM.o\
+turbulentBreakUpNDPBM.o\
+blendingMethod.o\
+newBlendingMethod.o\
+noBlending.o\
+linear.o\
+hyperbolic.o\
+phasePairKey.o\
+phasePair.o\
+orderedPhasePair.o\
+twoPhaseSystem.o
